@@ -44,6 +44,7 @@ hi Folded                    guifg=#F6F3E8 ctermfg=7 guibg=#444444 ctermbg=238 g
 " Misc
 " -----------------------------------------------------------------------------------
 hi Directory                 guifg=#A5C261 ctermfg=143 gui=NONE cterm=NONE
+hi ColorColumn               guibg=#383838 ctermbg=237 gui=NONE cterm=NONE
 
 " -----------------------------------------------------------------------------------
 " Popup Menu
