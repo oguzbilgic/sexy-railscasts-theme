@@ -24,78 +24,78 @@ let g:colors_name = "sexy-railscasts"
 " -----------------------------------------------------------------------------------
 " Basics
 " -----------------------------------------------------------------------------------
-hi Normal                    guifg=#E6E1DC guibg=#222222
-hi Cursor                    guibg=#FFFFFF
-hi CursorLine                guibg=#333435
-hi LineNr                    guifg=#383838 guibg=#141414
-hi SignColumn                guibg=#222222
-hi NonText                   guifg=#383838 guibg=#252525
-hi Search                    guibg=#5A647E
-hi VertSplit                 guifg=#383838 guibg=#383838
-hi Visual                    guibg=#5A647E
-hi Title                     guifg=#FFFFFF
+hi Normal                    guifg=#E6E1DC ctermfg=7 guibg=#222222 ctermbg=235
+hi Cursor                    guibg=#FFFFFF ctermbg=15
+hi CursorLine                guibg=#333435 ctermbg=236
+hi LineNr                    guifg=#383838 ctermfg=237 guibg=#141414 ctermbg=233
+hi SignColumn                guibg=#222222 ctermbg=235
+hi NonText                   guifg=#383838 ctermfg=237 guibg=#252525 ctermbg=235
+hi Search                    guibg=#5A647E ctermbg=60
+hi VertSplit                 guifg=#383838 ctermfg=237 guibg=#383838 ctermbg=237
+hi Visual                    guibg=#5A647E ctermbg=60
+hi Title                     guifg=#FFFFFF ctermfg=15
 
 " -----------------------------------------------------------------------------------
 " Folds
 " -----------------------------------------------------------------------------------
-hi Folded                    guifg=#F6F3E8 guibg=#444444 gui=NONE
+hi Folded                    guifg=#F6F3E8 ctermfg=7 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 
 " -----------------------------------------------------------------------------------
 " Misc
 " -----------------------------------------------------------------------------------
-hi Directory                 guifg=#A5C261 gui=NONE
+hi Directory                 guifg=#A5C261 ctermfg=143 gui=NONE cterm=NONE
 
 " -----------------------------------------------------------------------------------
 " Popup Menu
 " -----------------------------------------------------------------------------------
-hi Pmenu                     guifg=#F6F3E8 guibg=#444444 gui=NONE
-hi PmenuSel                  guifg=#000000 guibg=#A5C261 gui=NONE
-hi PMenuSbar                 guibg=#5A647E gui=NONE
-hi PMenuThumb                guibg=#AAAAAA gui=NONE
+hi Pmenu                     guifg=#F6F3E8 ctermfg=7 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
+hi PmenuSel                  guifg=#000000 ctermfg=0 guibg=#A5C261 ctermbg=143 gui=NONE cterm=NONE
+hi PMenuSbar                 guibg=#5A647E ctermbg=60 gui=NONE cterm=NONE
+hi PMenuThumb                guibg=#AAAAAA ctermbg=248 gui=NONE cterm=NONE
 
 " -----------------------------------------------------------------------------------
 " Syntax
 " -----------------------------------------------------------------------------------
-hi Comment                   guifg=#BC9458 gui=italic
-hi Todo                      guifg=#BC9458 guibg=NONE    gui=italic
-hi Constant                  guifg=#6D9CBE
-hi Define                    guifg=#CC7833
-hi Delimiter                 guifg=#519F50
-hi Error                     guifg=#FFFFFF guibg=#990000
-hi Function                  guifg=#FFC66D gui=NONE
-hi Identifier                guifg=#D0D0FF gui=NONE
-hi Include                   guifg=#CC7833 gui=NONE
-hi Keyword                   guifg=#CC7833
-hi Macro                     guifg=#CC7833 gui=NONE
-hi Number                    guifg=#A5C261
-hi PreCondit                 guifg=#CC7833 gui=NONE
-hi PreProc                   guifg=#CC7833 gui=NONE
-hi Statement                 guifg=#CC7833 gui=NONE
-hi String                    guifg=#A5C261
-hi Type                      guifg=#DA4939 gui=NONE
+hi Comment                   guifg=#BC9458 ctermfg=137 gui=italic cterm=italic
+hi Todo                      guifg=#BC9458 ctermfg=137 guibg=NONE ctermbg=NONE    gui=italic cterm=italic
+hi Constant                  guifg=#6D9CBE ctermfg=73
+hi Define                    guifg=#CC7833 ctermfg=173
+hi Delimiter                 guifg=#519F50 ctermfg=71
+hi Error                     guifg=#FFFFFF ctermfg=15 guibg=#990000 ctermbg=88
+hi Function                  guifg=#FFC66D ctermfg=221 gui=NONE cterm=NONE
+hi Identifier                guifg=#D0D0FF ctermfg=189 gui=NONE cterm=NONE
+hi Include                   guifg=#CC7833 ctermfg=173 gui=NONE cterm=NONE
+hi Keyword                   guifg=#CC7833 ctermfg=173
+hi Macro                     guifg=#CC7833 ctermfg=173 gui=NONE cterm=NONE
+hi Number                    guifg=#A5C261 ctermfg=143
+hi PreCondit                 guifg=#CC7833 ctermfg=173 gui=NONE cterm=NONE
+hi PreProc                   guifg=#CC7833 ctermfg=173 gui=NONE cterm=NONE
+hi Statement                 guifg=#CC7833 ctermfg=173 gui=NONE cterm=NONE
+hi String                    guifg=#A5C261 ctermfg=143
+hi Type                      guifg=#DA4939 ctermfg=167 gui=NONE cterm=NONE
 
 " -----------------------------------------------------------------------------------
 " Ruby
 " -----------------------------------------------------------------------------------
-hi erubyDelimiter            guifg=#DA4939
+hi erubyDelimiter            guifg=#DA4939 ctermfg=167
 
 " -----------------------------------------------------------------------------------
 " Git
 " -----------------------------------------------------------------------------------
-hi DiffAdd                   guifg=#E6E1DC guibg=#144212
-hi DiffDelete                guifg=#E6E1DC guibg=#660000
+hi DiffAdd                   guifg=#E6E1DC ctermfg=7 guibg=#144212 ctermbg=235
+hi DiffDelete                guifg=#E6E1DC ctermfg=7 guibg=#660000 ctermbg=52
 
 " -----------------------------------------------------------------------------------
 " Xml
 " -----------------------------------------------------------------------------------
-hi xmlTag                    guifg=#E8BF6A
-hi xmlTagName                guifg=#E8BF6A
-hi xmlEndTag                 guifg=#E8BF6A
+hi xmlTag                    guifg=#E8BF6A ctermfg=179
+hi xmlTagName                guifg=#E8BF6A ctermfg=179
+hi xmlEndTag                 guifg=#E8BF6A ctermfg=179
 
 " -----------------------------------------------------------------------------------
 " Html
 " -----------------------------------------------------------------------------------
-hi htmlArg                   guifg=#FFC66D guibg=#222222
+hi htmlArg                   guifg=#FFC66D ctermfg=221 guibg=#222222 ctermbg=235
 hi link htmlTag              xmlTag
 hi link htmlTagName          xmlTagName
 hi link htmlEndTag           xmlEndTag
