@@ -1,13 +1,13 @@
 " Name:     sexy-railscast vim colorscheme
-" Modifier: Oguz Bilgic <fisyonet@gmail.com> 
-" Url:      https://github.com/oguzbilgic/sexy-railscasts-theme  
+" Modifier: Oguz Bilgic <fisyonet@gmail.com>
+" Url:      https://github.com/oguzbilgic/sexy-railscasts-theme
 " License:  public domain
 "
 " A GUI Only port of the RailsCasts TextMate theme [1] to Vim.
 " Some parts of this theme were borrowed from the well-documented Lucius theme [2].
 " Initial file was written by Josh O'Rourke [3] then improved by Oguz Bilgic
-" 
-" [1] http://railscasts.com/about 
+"
+" [1] http://railscasts.com/about
 " [2] http://www.vim.org/scripts/script.php?script_id=2536
 " [3] https://github.com/jpo/vim-railscasts-theme
 
@@ -29,7 +29,7 @@ hi Cursor                    guibg=#FFFFFF
 hi CursorLine                guibg=#333435
 hi LineNr                    guifg=#383838 guibg=#141414
 hi SignColumn                guibg=#222222
-hi NonText                   guifg=#383838 guibg=#252525 
+hi NonText                   guifg=#383838 guibg=#252525
 hi Search                    guibg=#5A647E
 hi VertSplit                 guifg=#383838 guibg=#383838
 hi Visual                    guibg=#5A647E
@@ -77,7 +77,7 @@ hi Type                      guifg=#DA4939 gui=NONE
 " -----------------------------------------------------------------------------------
 " Ruby
 " -----------------------------------------------------------------------------------
-hi erubyDelimiter            guifg=#DA4939 
+hi erubyDelimiter            guifg=#DA4939
 
 " -----------------------------------------------------------------------------------
 " Git
